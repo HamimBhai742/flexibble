@@ -1,13 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CiSearch } from 'react-icons/ci';
 import { LuUpload } from 'react-icons/lu';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
-    <nav className='bg-white shadow-sm border-b border-gray-100'>
+    <nav
+      className={`bg-white border-b border-gray-100 sticky top-0 z-50 transition-all duration-300 ${
+        isScrolled ? 'shadow-md' : 'shadow-sm'
+      }`}
+    >
       <div className=' mx-auto px-4'>
         <div className='flex justify-between items-center h-16'>
           {/* Logo */}
