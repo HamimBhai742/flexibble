@@ -170,6 +170,7 @@ const Home = () => {
         isOpen={isModalOpen}
         onClose={handleCloseModal}
       />
+      
     </div>
   );
 };

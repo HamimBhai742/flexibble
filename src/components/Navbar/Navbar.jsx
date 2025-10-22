@@ -3,7 +3,7 @@ import { CiSearch } from 'react-icons/ci';
 import { LuUpload } from 'react-icons/lu';
 import { Link, NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({ onUploadClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -114,7 +114,10 @@ const Navbar = () => {
             </div>
 
             {/* Upload Button */}
-            <button className='hidden md:flex items-center space-x-2 bg-[#9C27B0] text-white px-4 py-3 rounded-xl text-sm font-medium transition-colors'>
+            <button
+              onClick={onUploadClick}
+              className='hidden md:flex items-center space-x-2 bg-[#9C27B0] text-white px-4 py-3 rounded-xl text-sm font-medium transition-colors'
+            >
               <LuUpload size={20} />
               <span>Upload</span>
             </button>
@@ -204,7 +207,10 @@ const Navbar = () => {
             {/* Mobile Actions */}
             <div className='pt-3 border-t border-gray-100 space-y-2 md:hidden'>
               {/* Upload Button */}
-              <button className='flex items-center space-x-2 bg-[#9C27B0] text-white px-4 py-3 rounded-xl text-sm font-medium transition-colors'>
+              <button
+                onClick={onUploadClick}
+                className='flex items-center space-x-2 bg-[#9C27B0] text-white px-4 py-3 rounded-xl text-sm font-medium transition-colors'
+              >
                 <LuUpload size={20} />
                 <span>Upload</span>
               </button>
