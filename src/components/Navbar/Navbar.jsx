@@ -83,6 +83,36 @@ const Navbar = () => {
               />
             </div>
 
+            <div className='dropdown dropdown-end'>
+              <div
+                tabIndex={0}
+                role='button'
+                className='btn btn-ghost btn-circle avatar'
+              >
+                <div className='w-10 rounded-full'>
+                  <img
+                    alt='Tailwind CSS Navbar component'
+                    src='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+                  />
+                </div>
+              </div>
+              <ul
+                tabIndex='-1'
+                className='menu  dropdown-content bg-white text-gray-800 rounded-box z-1 mt-3 w-fit p-2 shadow'
+              >
+                <li>
+                  <NavLink to='/profile' className='justify-between'>
+                    Profile
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to='/logout' className='justify-between '>
+                    Logout
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+
             {/* Upload Button */}
             <button className='hidden md:flex items-center space-x-2 bg-[#9C27B0] text-white px-4 py-3 rounded-xl text-sm font-medium transition-colors'>
               <LuUpload size={20} />

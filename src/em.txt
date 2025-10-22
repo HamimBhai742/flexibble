@@ -1,4 +1,4 @@
 https://i.postimg.cc/C5H2NVWj/Screenshot-From-2025-10-22-21-22-30.png
 
-now you focus pages/components/projecsCardDetails.jsx and implement  feature flow this url "https://watery-tan-j0qeonzrdz.edgeone.app/Screenshot%20From%202025-10-23%2000-47-16.png","" , when i click project card open projectdatailsmodel.
+now you focus pages/profile/profile.jsx and implement  feature flow this url  "https://watery-tan-j0qeonzrdz.edgeone.app/Screenshot%20From%202025-10-23%2000-47-16.png","https://national-pink-d0ehjix7on.edgeone.app/Screenshot%20From%202025-10-23%2000-47-30.png" , 
  . breck this into task then breck task into subtask then implement subtask one by one .desing must be unique and resposive for all devices ,using(react+talwind css ) my project name Flexibble Forntend desing   follow my command

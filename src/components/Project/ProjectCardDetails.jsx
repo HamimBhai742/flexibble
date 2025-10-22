@@ -1,4 +1,3 @@
-import React from 'react';
 
 const ProjectCardDetails = ({ project, isOpen, onClose }) => {
   if (!isOpen || !project) return null;
@@ -96,7 +95,7 @@ const ProjectCardDetails = ({ project, isOpen, onClose }) => {
             </div>
 
             {/* Action Buttons */}
-            <div className="flex flex-col space-y-3 lg:ml-8 lg:flex-shrink-0">
+            <div className="flex flex-col space-y-3 lg:ml-8 ">
               <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-medium transition-colors">
                 Follow
               </button>
