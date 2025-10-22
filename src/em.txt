@@ -1,4 +1,4 @@
 https://i.postimg.cc/C5H2NVWj/Screenshot-From-2025-10-22-21-22-30.png
 
-now you focus components/Navbar/Navbar.jsx and implement navbar feature flow this url "https://i.postimg.cc/0QJsC2Rp/Screenshot-From-2025-10-22-23-34-34.png"
+now you focus pages/Home/Home.jsx and implement  feature flow this url "https://i.postimg.cc/0QJsC2Rp/Screenshot-From-2025-10-22-23-34-34.png"
  . breck this into task then breck task into subtask then implement subtask one by one .desing must be unique and resposive for all devices ,using(react+talwind css ) my project name Flexibble Forntend desing   follow my command
