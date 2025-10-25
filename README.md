@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio showcase platform built with React and Tailwind CSS, inspired by Dribbble's design aesthetic.
 
+🌐 **Live Demo**: [https://flexibble-742.netlify.app](https://flexibble-742.netlify.app)
+
 ## ✨ Features
 
 - **Project Showcase** - Browse and discover creative projects with grid layout
